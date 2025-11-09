@@ -3,13 +3,14 @@ requires = ["pdm-pep517"]
 build-backend = "pdm.pep517.api"
 
 [project]
-name = "cls_ct123"
-version = "1.0"
+name = "cls_en"
+version = "1.1.1"
 authors = [
   { name="Catafrancia123", email="aragonisafferz@gmail.com" },
 ]
 description = "A Simple Clear Screen package"
-readme = "README.txt"
+readme = "README.md"
+license = "LICENSE.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3 :: Only",
@@ -28,5 +29,6 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/Catafrancia123/cls"
+"Bug Tracker" = "https://github.com/Catafrancia123/cls/issues"
+"Fix a problem" = "https://github.com/Catafrancia123/cls/pulls"
